@@ -20,37 +20,43 @@
       <section>
         <h1 class="text-light text-center display-2 fw-bold text-shadow pt-5 pb-4">GENERACIONES</h1>
       </section>
-      <section class="container d-flex justify-content-center"> 
+      <section class="container d-flex justify-content-center">
         <article class="card-formulario">
           <h2 class="display-4">Ingresar datos de X persona</h2>
-          <form>
+          <form id="formulario">
             <div class="row">
               <div class="mb-2 col-6 text-center">
-                <label for="" class="mb-2 d-flex justify-content-center lead">Nombre</label>
-                <input type="text" placeholder="Ej. Leandro" required>
+                <label  class="mb-2 d-flex justify-content-center lead">Nombre</label>
+                <input id="nombre" type="text" minlength="2" maxlength="30" placeholder="Ej. Leandro" required>
               </div>
               <div class="mb-2 col-6 text-center">
-                <label for="" class="mb-2 d-flex justify-content-center lead">Edad</label>
-                <input type="number" placeholder="Ej. 21" required>
+                <label class="mb-2 d-flex justify-content-center lead">Edad</label>
+                <input id="edad" type="number" minlength="1" maxlength="3" placeholder="Ej. 21" required>
               </div>
               <div class="mb-2 col-6 text-center py-4">
-                <label for="" class="mb-2 d-flex justify-content-center lead">Sexo</label>
-                <input type="text" placeholder="Ej. F / M" maxlength="1" required>
+                <label class="mb-2 d-flex justify-content-center lead">Sexo</label>
+                <input id="sexo" type="text"  placeholder="Ej. F / M" maxlength="1" required>
               </div>
               <div class="mb-2 col-6 text-center py-4">
-                <label for="" class="mb-2 d-flex justify-content-center lead">Peso</label>
-                <input type="number" placeholder="Ej. 67,8" required>
+                <label class="mb-2 d-flex justify-content-center lead">Peso</label>
+                <input id="peso" type="text" minlength="1" maxlength="5" placeholder="Ej. 67,8" required>
               </div>
               <div class="mb-2 col-6 text-center">
-                <label for="" class="mb-2 d-flex justify-content-center lead">Altura</label>
-                <input type="number" placeholder="Ej. 1,75" required>
+                <label class="mb-2 d-flex justify-content-center lead">Altura</label>
+                <input id="altura" type="text" placeholder="Ej. 1,75" required>
               </div>
               <div class="mb-2 col-6 text-center">
-                <label for="" class="mb-2 d-flex justify-content-center lead">Año de nacimiento</label>
-                <input type="number" placeholder="Ej. 2001" required>
+                <label class="mb-2 d-flex justify-content-center lead">Año de nacimiento</label>
+                <input id="anio" type="number" placeholder="Ej. 2001" required>
               </div>
             </div>
-            <button type="submit" class="btn btn-light">Enviar</button>
+            <button type="submit" class="btn btn-primary container">Enviar</button>
+            <div class="pt-5 d-flex justify-content-center">
+              <button id="mostrarInfo" type="button" class="btn btn-light">Mostrar informacion</button>
+              <button id="mostrarGen" type="button" class="btn btn-light">Mostrar generacion</button>
+              <button id="mayor" type="button" class="btn btn-light">Mayor de edad</button>
+            </div>
+            
           </form>
           
         </article>
