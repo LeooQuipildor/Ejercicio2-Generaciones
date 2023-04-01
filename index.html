@@ -25,36 +25,38 @@
           <h2 class="display-4 text-center py-4">Ingresar datos de X persona</h2>
           <form id="formulario">
             <div class="row">
-              <div class="mb-2">
-                <label  class="mb-2 col-4 lead">Nombre</label>
-                <input id="nombre" type="text" minlength="2" maxlength="30" placeholder="Ej. Leandro" required class="col-7">
+              <div class="mb-2 col-lg-6 text-lg-center">
+                <label  class="mb-2 col-4 lead col-lg-6">Nombre</label>
+                <input id="nombre" type="text" minlength="2" maxlength="30" placeholder="Ej. Leandro" required class="col-7 col-lg-10">
               </div>
-              <div class="mb-2">
-                <label class="mb-2 col-4 lead">Edad</label>
-                <input id="edad" type="number" minlength="1" maxlength="3" placeholder="Ej. 21" required class="col-7">
+              <div class="mb-2 col-lg-6 text-lg-center">
+                <label class="mb-2 col-4 lead col-lg-6">Edad</label>
+                <input id="edad" type="number" minlength="1" maxlength="3" placeholder="Ej. 21" required class="col-7 col-lg-10">
               </div>
-              <div class="mb-2">
-                <label class="mb-2 col-4 lead">Sexo</label>
-                <input id="sexo" type="text"  placeholder="Ej. F / M" maxlength="1" required class="col-7">
+              <div class="mb-2 col-lg-6 text-lg-center">
+                <label class="mb-2 col-4 lead col-lg-6">Sexo</label>
+                <input id="sexo" type="text"  placeholder="Ej. F / M" maxlength="1" required class="col-7 col-lg-10">
               </div>
-              <div class="mb-2">
-                <label class="mb-2 col-4 lead">Peso</label>
-                <input id="peso" type="text" minlength="1" maxlength="5" placeholder="Ej. 67,8" required class="col-7">
+              <div class="mb-2 col-lg-6 text-lg-center">
+                <label class="mb-2 col-4 lead col-lg-6">Peso</label>
+                <input id="peso" type="text" minlength="1" maxlength="5" placeholder="Ej. 67,8" required class="col-7 col-lg-10">
               </div>
-              <div class="mb-2">
-                <label class="mb-2 col-4 lead">Altura</label>
-                <input id="altura" type="text" placeholder="Ej. 1,75" required class="col-7">
+              <div class="mb-2 col-lg-6 text-lg-center">
+                <label class="mb-2 col-4 lead col-lg-6">Altura</label>
+                <input id="altura" type="text" placeholder="Ej. 1,75" required class="col-7 col-lg-10">
               </div>
-              <div class="mb-2">
-                <label class="mb-2 col-4 lead">Año de nacimiento</label>
-                <input id="anio" type="number" placeholder="Ej. 2001" required class="col-7">
+              <div class="mb-2 col-lg-6 text-lg-center">
+                <label class="mb-2 col-4 lead col-lg-6">Año de nacimiento</label>
+                <input id="anio" type="number" placeholder="Ej. 2001" required class="col-7 col-lg-10">
               </div>
             </div>
-            <button type="submit" class="btn btn-primary container">Enviar</button>
-            <div class="py-5 text-center">
+            <div class="text-lg-center pt-lg-2">
+              <button type="submit" class="btn btn-primary container col-lg-6">Enviar</button>
+            </div>
+            <div class="py-5 d-flex justify-content-around">
               <button id="mostrarInfo" type="button" class="btn btn-light col-3">Mostrar informacion</button>
               <button id="mostrarGen" type="button" class="btn btn-light col-3">Mostrar generacion</button>
-              <button id="mayor" type="button" class="btn btn-light col-3">Mayor de edad</button>
+              <button id="mayor" type="button" class="btn btn-light col-3 ">Mayor de edad</button>
             </div>
             
           </form>
