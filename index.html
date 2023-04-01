@@ -21,40 +21,40 @@
         <h1 class="text-light text-center display-2 fw-bold text-shadow pt-5 pb-4">GENERACIONES</h1>
       </section>
       <section class="container d-flex justify-content-center">
-        <article class="card-formulario">
-          <h2 class="display-4">Ingresar datos de X persona</h2>
+        <article class="card-formulario container col-12">
+          <h2 class="display-4 text-center py-4">Ingresar datos de X persona</h2>
           <form id="formulario">
             <div class="row">
-              <div class="mb-2 col-6 text-center">
-                <label  class="mb-2 d-flex justify-content-center lead">Nombre</label>
-                <input id="nombre" type="text" minlength="2" maxlength="30" placeholder="Ej. Leandro" required>
+              <div class="mb-2">
+                <label  class="mb-2 col-4 lead">Nombre</label>
+                <input id="nombre" type="text" minlength="2" maxlength="30" placeholder="Ej. Leandro" required class="col-7">
               </div>
-              <div class="mb-2 col-6 text-center">
-                <label class="mb-2 d-flex justify-content-center lead">Edad</label>
-                <input id="edad" type="number" minlength="1" maxlength="3" placeholder="Ej. 21" required>
+              <div class="mb-2">
+                <label class="mb-2 col-4 lead">Edad</label>
+                <input id="edad" type="number" minlength="1" maxlength="3" placeholder="Ej. 21" required class="col-7">
               </div>
-              <div class="mb-2 col-6 text-center py-4">
-                <label class="mb-2 d-flex justify-content-center lead">Sexo</label>
-                <input id="sexo" type="text"  placeholder="Ej. F / M" maxlength="1" required>
+              <div class="mb-2">
+                <label class="mb-2 col-4 lead">Sexo</label>
+                <input id="sexo" type="text"  placeholder="Ej. F / M" maxlength="1" required class="col-7">
               </div>
-              <div class="mb-2 col-6 text-center py-4">
-                <label class="mb-2 d-flex justify-content-center lead">Peso</label>
-                <input id="peso" type="text" minlength="1" maxlength="5" placeholder="Ej. 67,8" required>
+              <div class="mb-2">
+                <label class="mb-2 col-4 lead">Peso</label>
+                <input id="peso" type="text" minlength="1" maxlength="5" placeholder="Ej. 67,8" required class="col-7">
               </div>
-              <div class="mb-2 col-6 text-center">
-                <label class="mb-2 d-flex justify-content-center lead">Altura</label>
-                <input id="altura" type="text" placeholder="Ej. 1,75" required>
+              <div class="mb-2">
+                <label class="mb-2 col-4 lead">Altura</label>
+                <input id="altura" type="text" placeholder="Ej. 1,75" required class="col-7">
               </div>
-              <div class="mb-2 col-6 text-center">
-                <label class="mb-2 d-flex justify-content-center lead">Año de nacimiento</label>
-                <input id="anio" type="number" placeholder="Ej. 2001" required>
+              <div class="mb-2">
+                <label class="mb-2 col-4 lead">Año de nacimiento</label>
+                <input id="anio" type="number" placeholder="Ej. 2001" required class="col-7">
               </div>
             </div>
             <button type="submit" class="btn btn-primary container">Enviar</button>
-            <div class="pt-5 d-flex justify-content-center">
-              <button id="mostrarInfo" type="button" class="btn btn-light">Mostrar informacion</button>
-              <button id="mostrarGen" type="button" class="btn btn-light">Mostrar generacion</button>
-              <button id="mayor" type="button" class="btn btn-light">Mayor de edad</button>
+            <div class="py-5 text-center">
+              <button id="mostrarInfo" type="button" class="btn btn-light col-3">Mostrar informacion</button>
+              <button id="mostrarGen" type="button" class="btn btn-light col-3">Mostrar generacion</button>
+              <button id="mayor" type="button" class="btn btn-light col-3">Mayor de edad</button>
             </div>
             
           </form>
