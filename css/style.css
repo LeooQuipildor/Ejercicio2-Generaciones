@@ -4,24 +4,32 @@ body {
     flex-direction: column;
 }
 
-main{
+main {
     flex-grow: 1;
-    background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+    background-image: linear-gradient(to right top, #623478, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
 }
 
 .text-shadow {
     text-shadow: 5px 4px 1px rgb(161, 161, 161);
 }
 
-.card-formulario{
+.card-formulario {
     background-color: rgba(255, 255, 255, 0.464);
     border-radius: 10px;
-    
+
 }
 
-.card-formulario input{
+.card-formulario input {
     border-radius: 10px;
     border: none;
     outline: none;
     height: 40px;
+}
+
+.buttonsForm button:disabled {
+    box-shadow: 6px 6px 10px black;
+}
+
+.buttonsForm button {
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.668);
 }
